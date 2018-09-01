@@ -20,3 +20,7 @@ rabbitmq:
   password: guest
 env:
   dev
+management:
+  endpoints:
+    web:
+      expose: "*"
