@@ -19,4 +19,4 @@ rabbitmq:
   username: guest
   password: guest
 env:
-  dev
+  dev2
