@@ -14,7 +14,8 @@ server:
   port: 8765
 env:
   devTest02
-management:
-  endpoints:
-    web:
-      expose: "*"
+management:  
+  endpoints:  
+    web:  
+      exposure:  
+        include: '*'
