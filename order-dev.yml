@@ -2,10 +2,10 @@ spring:
   application:
     name: order
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: root
-    url: jdbc:mysql://127.0.0.1:3306/spring_cloud?characterEncoding=utf-8&useSSL=false
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: scott
+    password: tiger
+    url: jdbc:oracle:thin:@localhost:1521:orcl
 eureka:
   client:
     service-url:
