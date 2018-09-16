@@ -14,7 +14,6 @@ server:
   port: 8765
 rabbitmq:
   host: 104.224.142.248
-     #port: 5672
   port: 5672
   username: guest
   password: guest
