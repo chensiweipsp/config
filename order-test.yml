@@ -13,7 +13,7 @@ eureka:
 server:
   port: 8765
 env:
-  siweige!!!!!!!!!!!!!!!!!
+  思维哥
 management:  
   endpoints:  
     web:  
