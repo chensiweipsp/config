@@ -29,8 +29,3 @@ encrypt:
     key: siwei
 env:
   test07888
-management:
-  endpoints:
-   web:
-      exposure:
-        include: bus-refresh
