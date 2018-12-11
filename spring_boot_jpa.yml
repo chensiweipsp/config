@@ -28,7 +28,7 @@ eureka:
 encrypt:
     key: siwei
 env:
-  test078！！！！！！！！！！！！！！
+  test07888
 management:
   endpoints:
    web:
