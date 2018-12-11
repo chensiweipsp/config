@@ -28,4 +28,4 @@ eureka:
 encrypt:
     key: siwei
 env:
-  test02
+  test03
