@@ -31,5 +31,6 @@ env:
   test06
 management:
   endpoints:
-    web:
-      expose: "*"
+   web:
+      exposure:
+        include: "*"
