@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: spring_boot_jpa 
   jackson:
     serialization:
       indent-output: true
