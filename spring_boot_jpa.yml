@@ -26,6 +26,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 encrypt:
-    key: cwenao
+    key: siwei
 env:
   test02
