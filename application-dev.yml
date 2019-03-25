@@ -1,0 +1,35 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  zipkin:
+    base-url: http://172.17.0.1:20001
+  rabbitmq:
+    host: 120.79.175.70
+    port: 5672
+    username: gchdev
+    password: gchdev201807%^
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.79.175.70:18006/gchbpm-dev?useUnicode=true&amp;characterEncoding=utf8
+    username: gchdev
+    password: gchdev201807
+  redis:
+    host: 120.79.175.70
+    port: 11001
+    password: gch-redis-12345
+    pool:
+      max-active: 8
+      max-wait: -1
+      max-idle: 8
+      min-idle: 0
+    timeout: 0
+    
+feign:
+    httpclient:
+        enabled: false
+    okhttp:
+        enabled: true
+
+swagger-enable: true
