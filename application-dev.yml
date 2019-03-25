@@ -12,7 +12,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://120.79.175.70:18006/gchbpm-dev?useUnicode=true&amp;characterEncoding=utf8
+    url: jdbc:mysql://120.79.175.70:18006/gchbpm?useUnicode=true&amp;characterEncoding=utf8
     username: gchdev
     password: gchdev201807
   redis:
